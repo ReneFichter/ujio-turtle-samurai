@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Ujio the Turtle Samurai</title>
+  <meta name="description" content="Kontaktformular für Anfragen zu Cosplay, Toyfotografie, Shootings, Workshops und Kooperationen.">
+  <link rel="canonical" href="https://ujio-turtle-samurai.com/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/ujio_wasserzeichen_black.png" type="image/png">
+</head>
+<body class="contact-page">
+  <a href="#main" class="skip-link">Zum Hauptinhalt springen</a>
+  <div id="nav-placeholder"></div>
+
+  <main id="main" role="main">
+    <section class="section-header-block title-reveal contact-section text-center" aria-labelledby="contact-title">
+      <div class="container">
+        <p class="section-eyebrow">Kontakt</p>
+        <h1 id="contact-title">Schreib mir</h1>
+        <p class="section-intro">Hast du Ideen, Feedback oder willst du ein Projekt starten? Nutze dieses Formular.</p>
+      </div>
+    </section>
+
+    <section class="portfolio-grid" aria-label="Kontaktformular">
+      <div class="container">
+<form id="contact-form"
+      class="contact-form"
+      action="https://api.staticforms.dev/submit"
+      method="post"
+      novalidate>
+
+  <!-- StaticForms Konfiguration -->
+  <input type="hidden" name="accessKey" value="sf_4cd4ff20c7dd480633ff3881">
+
+  <p id="contact-status" class="contact-status"></p>
+
+  <label for="name">Name *</label>
+  <input type="text" id="name" name="name" required placeholder="Dein Name">
+
+  <label for="email">E-Mail *</label>
+  <input type="email" id="email" name="email" required placeholder="dein.name@beispiel.de">
+
+  <label for="subject">Betreff</label>
+  <input type="text" id="subject" name="subject" placeholder="z.B. Kooperationsanfrage">
+
+  <label for="message">Nachricht *</label>
+  <textarea id="message" name="message" required placeholder="Schreibe hier deine Nachricht..."></textarea>
+
+  <button type="submit">Nachricht senden</button>
+</form>
+
+        <div class="social-links" aria-label="Folge auf Social Media">
+          <p>Folge mir auf:</p>
+          <a href="https://www.instagram.com/ujio_the_tmnt_samurai/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5Zm8.64 2.73a.94.94 0 1 1 0 1.88.94.94 0 0 1 0-1.88Zm-4.39 1.5a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5Zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5Z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/channel/UCtZQd2dLlrcpggqd-Om50dg" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <circle cx="12" cy="12" r="10" fill="transparent" stroke="rgba(255, 255, 255, 0.9)" stroke-width="2"/>
+              <path d="M10 8l6 4-6 4V8z" fill="rgba(255,255,255,0.95)" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="scroll-top" aria-label="Zum Seitenanfang scrollen" title="Nach oben">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 5l-7 7h5v7h4v-7h5z" fill="currentColor"></path>
+    </svg>
+  </button>
+
+  <div id="footer-placeholder"></div>
+
+  <div id="cookie-banner" role="region" aria-label="Hinweis zu Cookies">
+    <p>Diese Website verwendet keine Tracking- oder Marketing-Cookies.
+      <button type="button" onclick="hideCookies()">Verstanden</button>
+    </p>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
