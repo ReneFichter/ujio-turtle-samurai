@@ -267,14 +267,39 @@ const TOY_GALLERY_IMAGES = [
   { file: 'toyphoto-stitch-in-space.jpg', copyKey: 'Stitch_In_Space.jpg', orientation: 'wide' },
   { file: 'toyphoto-turtles-breath.jpg', copyKey: 'Turtles_Breath.jpg', orientation: 'wide' },
   { file: 'toyphoto-undercover.jpg', copyKey: 'Undercover.jpg', orientation: 'wide' },
-  { file: 'toyphoto-bruce-lee-vater-und-meister.jpg', copyKey: 'Bruce_Lee_Vater_und_Meister.jpg', orientation: 'tall' }
+  { file: 'toyphoto-bruce-lee-vater-und-meister.jpg', copyKey: 'Bruce_Lee_Vater_und_Meister.jpg', orientation: 'tall' },
+  { file: 'Buddha-Neu.jpg', copyKey: 'Buddha-Neu.jpg', orientation: 'tall' },
+  { file: 'Casey_Leo.jpg', copyKey: 'Casey_Leo.jpg', orientation: 'tall' },
+  { file: 'Chrome-Dome.jpg', copyKey: 'Chrome-Dome.jpg', orientation: 'tall' },
+  { file: 'JoyToy-Team.jpg', copyKey: 'JoyToy-Team.jpg', orientation: 'tall' },
+  { file: 'JoyToy-Waterjump.jpg', copyKey: 'JoyToy-Waterjump.jpg', orientation: 'tall' },
+  { file: 'Mikey_Last_Ronin.jpg', copyKey: 'Mikey_Last_Ronin.jpg', orientation: 'tall' },
+  { file: 'Monodo-YOYO.jpg', copyKey: 'Monodo-YOYO.jpg', orientation: 'tall' },
+  { file: 'Motu-Plant-Neu.jpg', copyKey: 'Motu-Plant-Neu.jpg', orientation: 'tall' },
+  { file: 'New-Turtles.jpg', copyKey: 'New-Turtles.jpg', orientation: 'tall' },
+  { file: 'Out-of-the-sewer.jpg', copyKey: 'Out-of-the-sewer.jpg', orientation: 'tall' },
+  { file: 'Peanuts-Robber.jpg', copyKey: 'Peanuts-Robber.jpg', orientation: 'tall' },
+  { file: 'Raph-Sai.jpg', copyKey: 'Raph-Sai.jpg', orientation: 'tall' },
+  { file: 'Raphy--bw.jpg', copyKey: 'Raphy--bw.jpg', orientation: 'wide' },
+  { file: 'Ujio-Stand-ComicCon.jpg', copyKey: 'Ujio-Stand-ComicCon.jpg', orientation: 'wide' }
 ];
 
-// ------------------------------------------------------
-// Toy gallery text config
-// Edit texts here without touching the gallery logic.
-// ------------------------------------------------------
+
 const TOY_GALLERY_COPY = {
+    'Buddha-Neu.jpg': { de: { title: 'Buddha Neu' }, en: { title: 'Buddha New' } },
+    'Casey_Leo.jpg': { de: { title: 'Casey & Leo' }, en: { title: 'Casey & Leo' } },
+    'Chrome-Dome.jpg': { de: { title: 'Chrome Dome' }, en: { title: 'Chrome Dome' } },
+    'JoyToy-Team.jpg': { de: { title: 'JoyToy Team' }, en: { title: 'JoyToy Team' } },
+    'JoyToy-Waterjump.jpg': { de: { title: 'JoyToy Waterjump' }, en: { title: 'JoyToy Waterjump' } },
+    'Mikey_Last_Ronin.jpg': { de: { title: 'Mikey Last Ronin' }, en: { title: 'Mikey Last Ronin' } },
+    'Monodo-YOYO.jpg': { de: { title: 'Monodo YOYO' }, en: { title: 'Monodo YOYO' } },
+    'Motu-Plant-Neu.jpg': { de: { title: 'Motu Plant Neu' }, en: { title: 'Motu Plant New' } },
+    'New-Turtles.jpg': { de: { title: 'Neue Turtles' }, en: { title: 'New Turtles' } },
+    'Out-of-the-sewer.jpg': { de: { title: 'Out of the Sewer' }, en: { title: 'Out of the Sewer' } },
+    'Peanuts-Robber.jpg': { de: { title: 'Peanuts Robber' }, en: { title: 'Peanuts Robber' } },
+    'Raph-Sai.jpg': { de: { title: 'Raph mit Sai' }, en: { title: 'Raph with Sai' } },
+    'Raphy--bw.jpg': { de: { title: 'Raphy Schwarzweiß' }, en: { title: 'Raphy Black & White' } },
+    'Ujio-Stand-ComicCon.jpg': { de: { title: 'Ujio ComicCon Stand' }, en: { title: 'Ujio ComicCon Booth' } },
   'Adler.jpg': {
     de: {
       title: 'Majestätischer Fischfang',
@@ -2649,6 +2674,13 @@ function initVideoPosterResetOnEnd() {
     video.addEventListener('ended', () => resetVideoPoster(video));
   });
 }
+
+
+
+
+
+
+
 
 
 
