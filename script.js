@@ -2057,37 +2057,6 @@ const modalThemeClass = (() => {
       ],
       ooze: [
         { src: 'img/cosplays/ooze/mutagen-ooze-krang-prop.jpg', alt: 'Mutagen-Ooze mit Krang', caption: 'Mutagen-Ooze mit Krang' }
-      ],
-      squad: [
-        { src: 'img/group-shot.webp', alt: 'Squad Platzhalter 1', caption: 'Squad Galerie Platzhalter 1' },
-        { src: 'img/group-shot.webp', alt: 'Squad Platzhalter 2', caption: 'Squad Galerie Platzhalter 2' },
-        { src: 'img/group-shot.webp', alt: 'Squad Platzhalter 3', caption: 'Squad Galerie Platzhalter 3' },
-        { src: 'img/group-shot.webp', alt: 'Squad Platzhalter 4', caption: 'Squad Galerie Platzhalter 4' }
-      ],
-      'toy-macro': [
-        { src: 'img/toy-detail.webp', alt: 'Toy Macro Platzhalter 1', caption: 'Toy Macro Galerie Platzhalter 1' },
-        { src: 'img/toy-detail.webp', alt: 'Toy Macro Platzhalter 2', caption: 'Toy Macro Galerie Platzhalter 2' },
-        { src: 'img/toy-detail.webp', alt: 'Toy Macro Platzhalter 3', caption: 'Toy Macro Galerie Platzhalter 3' }
-      ],
-      'toy-stopmotion': [
-        { src: 'img/Pingu.jpg', alt: 'Stop-Motion Platzhalter 1', caption: 'Stop-Motion Galerie Platzhalter 1' },
-        { src: 'img/Pingu.jpg', alt: 'Stop-Motion Platzhalter 2', caption: 'Stop-Motion Galerie Platzhalter 2' },
-        { src: 'img/Pingu.jpg', alt: 'Stop-Motion Platzhalter 3', caption: 'Stop-Motion Galerie Platzhalter 3' }
-      ],
-      'toy-sewer-battle': [
-        { src: 'img/Lurtz-2.jpg', alt: 'Sewer Battle Platzhalter 1', caption: 'Sewer Battle Galerie Platzhalter 1' },
-        { src: 'img/Lurtz-2.jpg', alt: 'Sewer Battle Platzhalter 2', caption: 'Sewer Battle Galerie Platzhalter 2' },
-        { src: 'img/Lurtz-2.jpg', alt: 'Sewer Battle Platzhalter 3', caption: 'Sewer Battle Galerie Platzhalter 3' }
-      ],
-      'toy-lighting-main': [
-        { src: 'img/Super7.jpg', alt: 'Lighting Setup Platzhalter 1', caption: 'Lighting Setup Galerie Platzhalter 1' },
-        { src: 'img/Super7.jpg', alt: 'Lighting Setup Platzhalter 2', caption: 'Lighting Setup Galerie Platzhalter 2' },
-        { src: 'img/Super7.jpg', alt: 'Lighting Setup Platzhalter 3', caption: 'Lighting Setup Galerie Platzhalter 3' }
-      ],
-      'toy-lighting-alt': [
-        { src: 'img/Super7.jpg', alt: 'Lighting Setup Alt Platzhalter 1', caption: 'Lighting Setup Alt Galerie Platzhalter 1' },
-        { src: 'img/Super7.jpg', alt: 'Lighting Setup Alt Platzhalter 2', caption: 'Lighting Setup Alt Galerie Platzhalter 2' },
-        { src: 'img/Super7.jpg', alt: 'Lighting Setup Alt Platzhalter 3', caption: 'Lighting Setup Alt Galerie Platzhalter 3' }
       ]
     },
     en: {
@@ -2120,37 +2089,6 @@ const modalThemeClass = (() => {
       ],
       ooze: [
         { src: 'img/cosplays/ooze/mutagen-ooze-krang-prop.jpg', alt: 'Mutagen ooze with Krang', caption: 'Mutagen ooze with Krang' }
-      ],
-      squad: [
-        { src: 'img/group-shot.webp', alt: 'Squad placeholder 1', caption: 'Squad gallery placeholder 1' },
-        { src: 'img/group-shot.webp', alt: 'Squad placeholder 2', caption: 'Squad gallery placeholder 2' },
-        { src: 'img/group-shot.webp', alt: 'Squad placeholder 3', caption: 'Squad gallery placeholder 3' },
-        { src: 'img/group-shot.webp', alt: 'Squad placeholder 4', caption: 'Squad gallery placeholder 4' }
-      ],
-      'toy-macro': [
-        { src: 'img/toy-detail.webp', alt: 'Toy macro placeholder 1', caption: 'Toy macro gallery placeholder 1' },
-        { src: 'img/toy-detail.webp', alt: 'Toy macro placeholder 2', caption: 'Toy macro gallery placeholder 2' },
-        { src: 'img/toy-detail.webp', alt: 'Toy macro placeholder 3', caption: 'Toy macro gallery placeholder 3' }
-      ],
-      'toy-stopmotion': [
-        { src: 'img/Pingu.jpg', alt: 'Stop-motion placeholder 1', caption: 'Stop-motion gallery placeholder 1' },
-        { src: 'img/Pingu.jpg', alt: 'Stop-motion placeholder 2', caption: 'Stop-motion gallery placeholder 2' },
-        { src: 'img/Pingu.jpg', alt: 'Stop-motion placeholder 3', caption: 'Stop-motion gallery placeholder 3' }
-      ],
-      'toy-sewer-battle': [
-        { src: 'img/Lurtz-2.jpg', alt: 'Sewer Battle placeholder 1', caption: 'Sewer Battle gallery placeholder 1' },
-        { src: 'img/Lurtz-2.jpg', alt: 'Sewer Battle placeholder 2', caption: 'Sewer Battle gallery placeholder 2' },
-        { src: 'img/Lurtz-2.jpg', alt: 'Sewer Battle placeholder 3', caption: 'Sewer Battle gallery placeholder 3' }
-      ],
-      'toy-lighting-main': [
-        { src: 'img/Super7.jpg', alt: 'Lighting setup placeholder 1', caption: 'Lighting setup gallery placeholder 1' },
-        { src: 'img/Super7.jpg', alt: 'Lighting setup placeholder 2', caption: 'Lighting setup gallery placeholder 2' },
-        { src: 'img/Super7.jpg', alt: 'Lighting setup placeholder 3', caption: 'Lighting setup gallery placeholder 3' }
-      ],
-      'toy-lighting-alt': [
-        { src: 'img/Super7.jpg', alt: 'Lighting setup alt placeholder 1', caption: 'Lighting setup alt gallery placeholder 1' },
-        { src: 'img/Super7.jpg', alt: 'Lighting setup alt placeholder 2', caption: 'Lighting setup alt gallery placeholder 2' },
-        { src: 'img/Super7.jpg', alt: 'Lighting setup alt placeholder 3', caption: 'Lighting setup alt gallery placeholder 3' }
       ]
     }
   };
