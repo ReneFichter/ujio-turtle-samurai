@@ -2036,6 +2036,11 @@ const modalThemeClass = (() => {
         { src: 'img/cosplays/shredder/Shredder_Rene.jpg', alt: 'Shredder Close-up von Rene', caption: 'Shredder Close-up von Rene' },
         { src: 'img/cosplays/shredder/Shredder_Samurai.jpg', alt: 'Samurai Shredder Action Pose', caption: 'Samurai Shredder Action Pose' }
       ],
+      bebop: [
+        { src: 'img/cosplays/bebop/Bebop-am-Stein.jpg', alt: 'Bebop am Gebetsstein', caption: 'Bebop am Gebetsstein' },
+        { src: 'img/cosplays/bebop/Bebop-Drache.jpg', alt: 'Bebop Kampf gegen Drache', caption: 'bebop Kampf gegen Drache' },
+        { src: 'img/cosplays/bebop/Bebop-heroisch-auf-Brücke.jpg', alt: 'Bebop heroisch auf einer Brücke', caption: 'Bebop heroisch auf einer Brücke' },
+      ],
       portrait: [
         { src: 'img/cosplays/roshi/Muten_front.jpg', alt: 'Master Roshi Frontportrait', caption: 'Master Roshi Frontportrait' },
         { src: 'img/cosplays/roshi/Muten_turtle.jpg', alt: 'Master Roshi mit Turtle', caption: 'Master Roshi mit Turtle' }
@@ -2057,6 +2062,10 @@ const modalThemeClass = (() => {
       ],
       ooze: [
         { src: 'img/cosplays/ooze/mutagen-ooze-krang-prop.jpg', alt: 'Mutagen-Ooze mit Krang', caption: 'Mutagen-Ooze mit Krang' }
+      ],
+      bebopwaffe: [
+        { src: 'img/cosplays/bebopwaffe/Bebop-Feuer-Frei.jpg', alt: 'Babop Feuer frei', caption: 'Bebop Feuer frei' },
+        { src: 'img/cosplays/bebopwaffe/Bebop-Neon.jpg', alt: 'Bebop im Neonlicht', caption: 'Bebop im Neonlicht' },
       ]
     },
     en: {
@@ -2067,6 +2076,11 @@ const modalThemeClass = (() => {
         { src: 'img/cosplays/shredder/Shredder_Krang_con.jpg', alt: 'Shredder and Krang at the convention', caption: 'Shredder and Krang at the convention' },
         { src: 'img/cosplays/shredder/Shredder_Rene.jpg', alt: 'Shredder close-up by Rene', caption: 'Shredder close-up by Rene' },
         { src: 'img/cosplays/shredder/Shredder_Samurai.jpg', alt: 'Samurai Shredder action pose', caption: 'Samurai Shredder action pose' }
+      ],
+      bebop: [
+        { src: 'img/cosplays/bebop/Bebop-am-Stein.jpg', alt: 'Bebop at the Prayer Stone', caption: 'Bebop at the Prayer Stone' },
+        { src: 'img/cosplays/bebop/Bebop-Drache.jpg', alt: 'Bebop fighting a dragon', caption: 'Bebop fighting a dragon' },
+        { src: 'img/cosplays/bebop/Bebop-heroisch-auf-Brücke.jpg', alt: 'Bebop heroically on a bridge', caption: 'Bebop heroically on a bridge' },
       ],
       portrait: [
         { src: 'img/cosplays/roshi/Muten_front.jpg', alt: 'Master Roshi front portrait', caption: 'Master Roshi front portrait' },
@@ -2089,6 +2103,10 @@ const modalThemeClass = (() => {
       ],
       ooze: [
         { src: 'img/cosplays/ooze/mutagen-ooze-krang-prop.jpg', alt: 'Mutagen ooze with Krang', caption: 'Mutagen ooze with Krang' }
+      ],
+      bebopwaffe: [
+        { src: 'img/cosplays/bebopwaffe/Bebop-Feuer-Frei.jpg', alt: 'Babop open fire', caption: 'Bebop open fire' },
+        { src: 'img/cosplays/bebopwaffe/Bebop-Neon.jpg', alt: 'Bebop in neonlight', caption: 'Bebop in neonlight' },
       ]
     }
   };
