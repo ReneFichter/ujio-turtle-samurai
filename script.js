@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
     { url: 'https://www.youtube.com/embed/_7_uTgHpZbs', title: 'Short 6' },
     { url: 'https://www.youtube.com/embed/yWrdFB0GSjo', title: 'Short 7' },
     { url: 'https://www.youtube.com/embed/c-3xkaDdDOs', title: 'Short 8' },
+    { url: 'https://www.youtube.com/embed/Gdz8_CJd6RQ', title: 'NEW COSPLAY - DESIGN' },
+    { url: 'https://www.youtube.com/embed/PuprKsgT1-Q', title: 'NEW COSPLAY - MASK AND HELMET' },
+    { url: 'https://www.youtube.com/embed/nwypjN2sIpc', title: 'NEW COSPLAY - WEAPONS' },
+    { url: 'https://www.youtube.com/embed/DxB5kq5E18c', title: 'NEW COSPLAY - ARMOR + OUTFIT' },
   ];
   let shortsIndex = 0;
   function renderShortsCarousel() {
