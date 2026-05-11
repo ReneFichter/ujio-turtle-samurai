@@ -1,7 +1,6 @@
 ﻿// === YOUTUBE SHORTS KARUSSELL (ausgelagert aus videos.html & videos_en.html) ===
 document.addEventListener('DOMContentLoaded', function() {
   if (!document.getElementById('shortsCustomCarousel')) return;
-  // Video-Links und Titel (kann ggf. angepasst werden)
   const shortsVideos = [
     { url: 'https://www.youtube.com/embed/5M-Cre8ETgg', title: 'Short 1' },
     { url: 'https://www.youtube.com/embed/wb5sBZJp3aY', title: 'Short 2' },
