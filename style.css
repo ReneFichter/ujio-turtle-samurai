@@ -8,7 +8,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
   box-sizing: border-box;
-  background: #000;
+  /* background entfernt */
   border-radius: 0;
 }
 .hero-video-frame .hero-bg-video {
@@ -17,7 +17,7 @@
   max-width: 320px;
   max-height: 570px;
   border-radius: 0 !important;
-  background: #000;
+  /* background entfernt */
   box-shadow: 0 0 24px 6px #eaff00, 0 0 48px 12px #00ff7b;
   display: block;
   margin: 0 auto;
