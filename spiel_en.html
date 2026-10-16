@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ujio's Sewer Network – the Game | Ujio the Turtle Samurai</title>
+  <meta name="description" content="Ujio's Sewer Network: climb down the manhole into Ujio's lair, explore six 3D rooms, solve puzzles and collect points.">
+  <meta property="og:title" content="Ujio's Sewer Network – the Game">
+  <meta property="og:description" content="A browser game through the lair of Ujio the Turtle Samurai.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://ujio-turtle-samurai.com/spiel_en.html">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/ujio_wasserzeichen_black.png" type="image/png">
+</head>
+<body class="game-page">
+  <!-- SKIP-LINK: Jump to main content -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- NAVIGATION: Placeholder -->
+  <div id="nav-placeholder"></div>
+
+  <!-- MAIN: Game -->
+  <main id="main" role="main">
+    <!-- PAGE HEADER: Title and intro -->
+    <section class="section-header-block title-reveal text-center pt-5" aria-labelledby="game-title">
+      <div class="container">
+        <p class="section-eyebrow">Game</p>
+        <h1 id="game-title">Ujio's Sewer Network</h1>
+        <p class="section-intro">
+          Lift the manhole cover and drop into the <span class="accent-keyword">creative underground</span> -
+          six rooms, puzzles and hidden <span class="accent-keyword">secrets</span>.
+        </p>
+      </div>
+    </section>
+
+    <!-- GAME: embedded from the kanalnetz/ folder -->
+    <section class="game-section" aria-label="Game Ujio's Sewer Network">
+      <div class="container">
+        <div class="game-frame-wrap">
+          <iframe
+            class="game-frame"
+            src="kanalnetz/index.html?lang=en"
+            title="Ujio's Sewer Network – browser game"
+            allow="fullscreen"
+            allowfullscreen></iframe>
+        </div>
+        <p class="game-actions">
+          <a href="kanalnetz/index.html?lang=en" class="btn-primary-custom">Play fullscreen</a>
+        </p>
+        <p class="game-note">
+          Desktop: <strong>WASD</strong> to walk, <strong>drag the mouse</strong> to look around, <strong>E</strong> to interact.
+          Mobile: joystick on the left, swipe on the right to look around.<br>
+          Your progress is only stored in your own browser.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- SCROLL-TOP BUTTON -->
+  <button class="scroll-top" aria-label="Scroll to top" title="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 5l-7 7h5v7h4v-7h5z" fill="currentColor"></path>
+    </svg>
+  </button>
+
+  <!-- FOOTER: Placeholder -->
+  <div id="footer-placeholder"></div>
+
+  <!-- COOKIE BANNER -->
+  <div id="cookie-banner" role="region" aria-label="Cookie notice">
+    <p>This website does not use tracking or marketing cookies.
+      <button type="button" onclick="hideCookies()">Got it</button>
+    </p>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
