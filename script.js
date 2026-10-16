@@ -1422,6 +1422,8 @@ const SHARED_FALLBACKS = {
       videosLabel: 'Videos',
       aboutHref: 'about.html',
       aboutLabel: 'Über',
+      gameHref: 'spiel.html',
+      gameLabel: 'Spiel',
       languageSwitchMarkup: ''
     },
     en: {
@@ -1442,6 +1444,8 @@ const SHARED_FALLBACKS = {
       videosLabel: 'Videos',
       aboutHref: 'about_en.html',
       aboutLabel: 'About',
+      gameHref: 'spiel_en.html',
+      gameLabel: 'Game',
       languageSwitchMarkup: `
               <li class="nav-item language-switch" role="none">
                 <a role="menuitem" href="index.html" class="nav-link">DE</a>
@@ -1520,7 +1524,8 @@ function buildNavFallback(locale) {
                   <li role="none"><a role="menuitem" href="${config.videosHref}" class="nav-link">${config.videosLabel}</a></li>
                 </ul>
               </li>
-              <li class="nav-item" role="none"><a role="menuitem" href="${config.aboutHref}" class="nav-link">${config.aboutLabel}</a></li>${config.languageSwitchMarkup}
+              <li class="nav-item" role="none"><a role="menuitem" href="${config.aboutHref}" class="nav-link">${config.aboutLabel}</a></li>
+              <li class="nav-item" role="none"><a role="menuitem" href="${config.gameHref}" class="nav-link">${config.gameLabel}</a></li>${config.languageSwitchMarkup}
             </ul>
           </div>
         </div>
