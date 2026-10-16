@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ujios Kanalnetz – das Spiel | Ujio the Turtle Samurai</title>
+  <meta name="description" content="Ujios Kanalnetz: Steig durch den Gullydeckel in Ujios Versteck, erkunde sechs 3D-Räume, löse Rätsel und sammle Punkte.">
+  <meta property="og:title" content="Ujios Kanalnetz – das Spiel">
+  <meta property="og:description" content="Ein Browser-Spiel durch das Versteck von Ujio the Turtle Samurai.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://ujio-turtle-samurai.com/spiel.html">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/ujio_wasserzeichen_black.png" type="image/png">
+</head>
+<body class="game-page">
+  <!-- SKIP-LINK: Direkt zum Hauptinhalt -->
+  <a href="#main" class="skip-link">Zum Hauptinhalt springen</a>
+
+  <!-- NAVIGATION: Platzhalter für Navigation -->
+  <div id="nav-placeholder"></div>
+
+  <!-- HAUPTBEREICH: Spiel -->
+  <main id="main" role="main">
+    <!-- SEITENKOPF: Titel und Einleitung -->
+    <section class="section-header-block title-reveal text-center pt-5" aria-labelledby="game-title">
+      <div class="container">
+        <p class="section-eyebrow">Spiel</p>
+        <h1 id="game-title">Ujios Kanalnetz</h1>
+        <p class="section-intro">
+          Heb den Gullydeckel an und steig hinab in den <span class="accent-keyword">kreativen Untergrund</span> -
+          sechs Räume, Rätsel und versteckte <span class="accent-keyword">Geheimnisse</span>.
+        </p>
+      </div>
+    </section>
+
+    <!-- SPIEL: eingebettet aus dem Ordner kanalnetz/ -->
+    <section class="game-section" aria-label="Spiel Ujios Kanalnetz">
+      <div class="container">
+        <div class="game-frame-wrap">
+          <iframe
+            class="game-frame"
+            src="kanalnetz/index.html"
+            title="Ujios Kanalnetz – Browser-Spiel"
+            allow="fullscreen"
+            allowfullscreen></iframe>
+        </div>
+        <p class="game-actions">
+          <a href="kanalnetz/index.html" class="btn-primary-custom">Im Vollbild spielen</a>
+        </p>
+        <p class="game-note">
+          Steuerung am PC: <strong>WASD</strong> laufen, <strong>Maus ziehen</strong> umsehen, <strong>E</strong> benutzen.
+          Am Handy: Joystick links, rechts wischen zum Umsehen.<br>
+          Dein Spielstand bleibt nur in deinem Browser gespeichert.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- SCROLL-TOP BUTTON: Nach oben -->
+  <button class="scroll-top" aria-label="Zum Seitenanfang scrollen" title="Nach oben">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 5l-7 7h5v7h4v-7h5z" fill="currentColor"></path>
+    </svg>
+  </button>
+
+  <!-- FOOTER: Platzhalter für Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- COOKIE-BANNER: Hinweis zu Cookies -->
+  <div id="cookie-banner" role="region" aria-label="Hinweis zu Cookies">
+    <p>Diese Website verwendet keine Tracking- oder Marketing-Cookies.
+      <button type="button" onclick="hideCookies()">Verstanden</button>
+    </p>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
