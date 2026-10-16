@@ -2638,16 +2638,3 @@ function initVideoPosterResetOnEnd() {
     video.addEventListener('ended', () => resetVideoPoster(video));
   });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
