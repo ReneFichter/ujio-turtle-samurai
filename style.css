@@ -4920,3 +4920,59 @@ a:hover {
   background: none;
   border: none;
 }
+
+/* === SPIEL: Ujios Kanalnetz (spiel.html / spiel_en.html) === */
+.game-section {
+  padding-bottom: 3rem;
+}
+
+.game-frame-wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--dark);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+/* Ab ca. 720px Höhe zeigt das Spiel am PC seinen Neon-Handyrahmen */
+.game-frame {
+  display: block;
+  width: 100%;
+  height: clamp(560px, calc(100vh - var(--header-height) - 40px), 920px);
+  border: 0;
+}
+
+.game-actions {
+  margin: 1.5rem 0 0.75rem;
+  text-align: center;
+}
+
+.game-note {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 767px) {
+  .game-section .container {
+    padding-inline: 0;
+  }
+
+  .game-frame-wrap {
+    border-radius: 0;
+    border-inline: 0;
+  }
+
+  .game-frame {
+    height: calc(100svh - var(--header-height));
+  }
+
+  .game-actions,
+  .game-note {
+    padding-inline: var(--container-space);
+  }
+}
